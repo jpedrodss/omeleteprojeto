@@ -5,8 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omelete</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/525a7ba6e9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <header class="container">
+        <a href="#" title="Acessar menu" onclick="btnMenu()" class="btn shadow circle">
+            <i class="fas fa-bars"></i>
+        </a>
+        <a href="index.html">
+            <img src="img/omelete_logo.svg" alt="Logo do Omelete">
+        </a>
+        <a href="#" class="btn shadow circle">
+            <i class="fas fa-search"></i>
+        </a>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">início</a></li>
+                <li><a href="#filmes">filmes</a></li>
+                <li><a href="#series">séries</a></li>
+            </ul>
+        </nav>
+        <div class="top_sociais">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="img/news/4.png">
+                <source media="(min-width: 768px)" srcset="img/news/3.png">
+                <source media="(min-width: 460px)" srcset="img/news/2.png">
+                <img src="img/news/1.jpg" alt="Banner demonstrativo - Mobile">
+            </picture>
+        </div>
+        <h1>Destaques</h1>
+        <section id="filmes">
+            <h2>Filmes</h2>
+            <div class="cards btn shadow rounded">
+                <img src="img/news/2.png" alt="Imagem sobre a notícia X">
+                <h3>Logan está de volta a Marvel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloremque temporibus est iusto. A perspiciatis impedit non sunt voluptatum numquam laboriosam tenetur beatae accusamus, qui architecto officia sit, repudiandae voluptas?</p>
+            </div>
+            <div class="cards btn shadow rounded">
+                <img src="img/news/2.png" alt="Imagem sobre a notícia X">
+                <h3>Logan está de volta a Marvel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloremque temporibus est iusto. A perspiciatis impedit non sunt voluptatum numquam laboriosam tenetur beatae accusamus, qui architecto officia sit, repudiandae voluptas?</p>
+            </div>
+            <div class="cards btn shadow rounded">
+                <img src="img/news/2.png" alt="Imagem sobre a notícia X">
+                <h3>Logan está de volta a Marvel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloremque temporibus est iusto. A perspiciatis impedit non sunt voluptatum numquam laboriosam tenetur beatae accusamus, qui architecto officia sit, repudiandae voluptas?</p>
+            </div>
+        </section>
+        <section id="series">
+            <h2>Séries</h2>
+            <div class="cards btn shadow rounded">
+                <img src="img/news/6.jpg" alt="Imagem sobre a notícia X">
+                <h3>Os melhores de todos os tempos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloremque temporibus est iusto. A perspiciatis impedit non sunt voluptatum numquam laboriosam tenetur beatae accusamus, qui architecto officia sit, repudiandae voluptas?</p>
+            </div>
+            <div class="cards btn shadow rounded">
+                <img src="img/news/6.jpg" alt="Imagem sobre a notícia X">
+                <h3>Os melhores de todos os tempos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloremque temporibus est iusto. A perspiciatis impedit non sunt voluptatum numquam laboriosam tenetur beatae accusamus, qui architecto officia sit, repudiandae voluptas?</p>
+            </div>
+            <div class="cards btn shadow rounded">
+                <img src="img/news/6.jpg" alt="Imagem sobre a notícia X">
+                <h3>Os melhores de todos os tempos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloremque temporibus est iusto. A perspiciatis impedit non sunt voluptatum numquam laboriosam tenetur beatae accusamus, qui architecto officia sit, repudiandae voluptas?</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="shadow">
+        <div class="container">
+            <div class="links btn inner rounded">
+                <h4>Livros e HQs</h4>
+                <nav>
+                    <ul>
+                    <li><a href="#">Oscar</a></li>
+                    <li><a href="#">Bilheteria USA</a></li>
+                    <li><a href="#">Bilheteria Brasil</a></li>
+                    <li><a href="#">Estreias da Semana</a></li>
+                    <li><a href="#">Críticas</a></li>
+                    <li><a href="#">Notícias</a></li>
+                </ul>
+                </nav>
+            </div>
+            <div class="links btn inner rounded">
+                <h4>Série de TV</h4>
+                <nav>
+                    <ul>
+                    <li><a href="#">Oscar</a></li>
+                    <li><a href="#">Bilheteria USA</a></li>
+                    <li><a href="#">Bilheteria Brasil</a></li>
+                    <li><a href="#">Estreias da Semana</a></li>
+                    <li><a href="#">Críticas</a></li>
+                    <li><a href="#">Notícias</a></li>
+                </ul>
+                </nav>
+            </div>
+            <div class="links btn inner rounded">
+                <h4>Filmes</h4>
+                <nav>
+                    <ul>
+                    <li><a href="#">Oscar</a></li>
+                    <li><a href="#">Bilheteria USA</a></li>
+                    <li><a href="#">Bilheteria Brasil</a></li>
+                    <li><a href="#">Estreias da Semana</a></li>
+                    <li><a href="#">Críticas</a></li>
+                    <li><a href="#">Notícias</a></li>
+                </ul>
+                </nav>
+            </div>
+            <div class="links btn inner rounded">
+                <h4>Música</h4>
+                <nav>
+                    <ul>
+                    <li><a href="#">Oscar</a></li>
+                    <li><a href="#">Bilheteria USA</a></li>
+                    <li><a href="#">Bilheteria Brasil</a></li>
+                    <li><a href="#">Estreias da Semana</a></li>
+                    <li><a href="#">Críticas</a></li>
+                    <li><a href="#">Notícias</a></li>
+                </ul>
+                </nav>
+            </div>
+
+            <div class="sociais btn inner rounded">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <p>2020 - Todos os direitos reservados</p>
+    </footer>
     
+    <script>
+        function btnMenu(){
+
+            var menu = document.getElementById("menu");
+
+            if(menu.style.display == "none"){
+                menu.style.display = "block";
+            }else{
+                menu.style.display ="none";
+            }
+
+        }
+
+    </script>
 </body>
 </html>
